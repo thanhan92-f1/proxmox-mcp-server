@@ -4,7 +4,7 @@ FROM python:3.12-slim
 LABEL org.opencontainers.image.title="Proxmox MCP Server"
 LABEL org.opencontainers.image.description="MCP server for Proxmox VE management"
 LABEL org.opencontainers.image.source="https://github.com/thanhan92-f1/proxmox-mcp-server"
-LABEL org.opencontainers.image.vendor="ry-ops"
+LABEL org.opencontainers.image.vendor="thanhan92-f1"
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     ca-certificates curl \
